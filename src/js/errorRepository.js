@@ -10,10 +10,4 @@ export default class ErrorRepository {
     return 'Unknown error';
   }
 }
-
-ErrorRepository.dbErrors = new Map([
-  [1, 'out of order'],
-  [2, 'connection error'],
-  [3, 'invalid name or password'],
-  [404, 'not found'],
-]);
+ErrorRepository.dbErrors = new Map();
